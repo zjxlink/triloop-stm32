@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="v1s0"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="v1s0.elf">
+				<Option output="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/v1s0.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_FULL_LL_DRIVER"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/FATFS/Target"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/FATFS/App"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/USB_DEVICE/App"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/USB_DEVICE/Target"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/Makefile&quot;  VERBOSE=1 v1s0.elf"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="v1s0.elf/fast">
+				<Option output="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/v1s0.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_FULL_LL_DRIVER"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/FATFS/Target"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/FATFS/App"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/USB_DEVICE/App"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/USB_DEVICE/Target"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/Makefile&quot;  VERBOSE=1 v1s0.elf/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc/config.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc/dma.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc/fsmc.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc/fsmc2fpga.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc/gpio.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc/main.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc/mcp41010t.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc/retarget.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc/rtc.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc/sd_data.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc/sdio.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc/sensorParse.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc/spi.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc/stm32_assert.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc/stm32f4xx_it.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc/tempacket.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc/tim.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc/tool.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Inc/usart.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Src/config.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Src/dma.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Src/fsmc.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Src/fsmc2fpga.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Src/gpio.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Src/main.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Src/mcp41010t.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Src/retarget.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Src/rtc.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Src/sd_data.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Src/sdio.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Src/sensorParse.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Src/spi.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Src/stm32f4xx_it.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Src/syscalls.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Src/system_stm32f4xx.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Src/tempacket.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Src/tim.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Src/tool.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Core/Src/usart.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sd.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_sdmmc.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/FATFS/App/fatfs.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/FATFS/App/fatfs.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/FATFS/Target/bsp_driver_sd.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/FATFS/Target/bsp_driver_sd.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/FATFS/Target/fatfs_platform.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/FATFS/Target/fatfs_platform.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/FATFS/Target/ffconf.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/FATFS/Target/sd_diskio.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/FATFS/Target/sd_diskio.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/Third_Party/FatFs/src/diskio.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/Third_Party/FatFs/src/diskio.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/Third_Party/FatFs/src/ff.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/Third_Party/FatFs/src/ff.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/Third_Party/FatFs/src/integer.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/Third_Party/FatFs/src/option/cc936.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/Middlewares/Third_Party/FatFs/src/option/syscall.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/STM32F407ZGTx_FLASH.ld">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/USB_DEVICE/App/usb_device.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/USB_DEVICE/App/usb_device.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/USB_DEVICE/App/usbd_cdc_if.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/USB_DEVICE/App/usbd_cdc_if.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/USB_DEVICE/App/usbd_desc.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/USB_DEVICE/App/usbd_desc.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/USB_DEVICE/Target/usbd_conf.c">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/USB_DEVICE/Target/usbd_conf.h">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/startup/startup_stm32f407xx.s">
+			<Option target="v1s0.elf"/>
+		</Unit>
+		<Unit filename="D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,5 @@
+"C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_C_COMPILER=C:/Program Files (x86)/GNU Tools ARM Embedded/8 2019-q3-update/bin/arm-none-eabi-gcc.exe" "-DCMAKE_CXX_COMPILER=C:/Program Files (x86)/GNU Tools ARM Embedded/8 2019-q3-update/bin/arm-none-eabi-g++.exe" -G "CodeBlocks - MinGW Makefiles" D:\Work\1.Project\2.IndependentTEMReceiver\10.item\sixChannel\SixChannel\1.appfsmc16\1.stm32\v1s0
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Work/1.Project/2.IndependentTEMReceiver/10.item/sixChannel/SixChannel/1.appfsmc16/1.stm32/v1s0/cmake-build-debug
